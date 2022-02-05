@@ -21,7 +21,7 @@ public class MyLibrary {
             }
         }
     }
-    
+    /// calling hello endpoint
     public func getHello(completion: @escaping (String?) -> Void){
         helloService.getHelloResponse { response in
             switch response {
